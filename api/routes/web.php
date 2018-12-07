@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::post('logearse', ['as'=>'logearse','uses'=>'logearseController@logearse']);
+
+Route::get('usuarios', ['as'=>'usuarios','uses'=>'usuariosController@getUsers']);
+
+// Route::post('id', ['as'=>'id','uses'=>'logearseController@id']);
+
+// Route::get('id', ['as'=>'id','uses'=>'logearseController@id']);
+
+// Route::get('municipios', ['as'=>'municipios','uses'=>'logearseController@getMunicipios']);
