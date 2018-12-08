@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Usuarios;
 use DB;
 
-class usuariosController extends Controller
+class UsuariosController extends Controller
 {
     //
 

@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::post('logearse', ['as'=>'logearse','uses'=>'logearseController@logearse']);
+Route::post('registrar', ['as'=>'registrar','uses'=>'RegistroController@store']);
 
-Route::get('usuarios', ['as'=>'usuarios','uses'=>'usuariosController@getUsers']);
+Route::get('usuarios', ['as'=>'usuarios','uses'=>'UsuariosController@getUsers']);
 
 // Route::post('id', ['as'=>'id','uses'=>'logearseController@id']);
 
