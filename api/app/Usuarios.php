@@ -12,7 +12,7 @@ class Usuarios extends Model
     
     // para proteger que ingresen datos maliciosos desde el html por ejemplo
      protected $fillable = [
-        'nombre', 'apellido', 'email', 'password', 'role',
+        'id','nombre', 'apellido', 'email', 'password', 'role',
     ];
 
     /**

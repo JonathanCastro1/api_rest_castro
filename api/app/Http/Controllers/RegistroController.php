@@ -70,6 +70,9 @@ class RegistroController extends Controller
 
        return response("Registro Exitoso", 200);
 
+       // otra forma
+       // return response()->json($usuarios);
+
    }
 
     /**
