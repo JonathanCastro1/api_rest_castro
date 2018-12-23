@@ -1,2 +1,2 @@
-# api_rest_castro
-Api rest de la aplicacion App_castro, la estoy desarrollando con laravel version  5.7
+# API REST jon
+Api rest de la aplicacion web App jon, la estoy desarrollando con laravel version  5.7.
